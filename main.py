@@ -140,7 +140,6 @@ substract_button=tkinter.Button(button_frame,text="-",font=button_font,bg=light_
 add_button=tkinter.Button(button_frame,text="+",font=button_font,bg=light_green, command=lambda: operate("add"))
 equal_button=tkinter.Button(button_frame,text="=",font=button_font,bg=dark_green,command=equal)
 decimal_button=tkinter.Button(button_frame,text=".",font=button_font,bg="black",fg="white",command= lambda: submit_number('.'))
-#decimal_button.bind('<.>',submit_number('.'))
 negate_button=tkinter.Button(button_frame,text="+/-",font=button_font,bg='black',fg='white',command=negate)
 
 nine_button=tkinter.Button(button_frame,text='9',font=button_font,bg='black',fg='white',command= lambda: submit_number(9))
